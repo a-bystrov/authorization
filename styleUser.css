@@ -1,0 +1,61 @@
+* {
+    margin: 4px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.error {
+    color: red;
+}
+
+input {
+    border: none;
+    border-radius: 15px;
+    background: #F0F0F0;
+    height: 30px;
+    outline-color: #04B6EE;
+    padding-left: 15px;
+}
+
+input:focus {
+    background: #E8F0FE;
+}
+
+button {
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background: #04B6EE;
+    color: white;
+    align-self: center;
+    padding: 0 20px;
+}
+
+button:hover {
+    color: #04B6EE;
+    border: 2px solid #04B6EE;
+    background: white;
+    cursor: pointer;
+}
+
+.btnLogOut {
+    display: block;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.formAddUser {
+    display: flex;
+    align-items: center;
+}
+
+.passwordForEncrypt {
+    width: 300px;
+}
+
+.errorFormInfoUsers{
+    display: none;
+}

@@ -1,0 +1,17 @@
+{
+    "admin": {
+        "password": "1w",
+        "block": false,
+        "limit": false
+    },
+    "andrey": {
+        "password": "2b",
+        "block": false,
+        "limit": false
+    },
+    "elena": {
+        "password": "3c",
+        "block": false,
+        "limit": false
+    }
+}
